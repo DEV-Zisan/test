@@ -1,0 +1,107 @@
+@media all and (max-width:1520px){
+ .wide{
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+}
+}
+@media all and (max-width:1024px){
+
+.hader-right {
+    width: 100%;
+    text-align: center;
+
+}
+.hader-left {
+    width: 100%;
+    text-align: center;
+    border: none;
+}
+.hader-right ul li a {
+    border: none;
+    line-height: 40px;
+}
+.hader-right ul li:first-child a{
+    border-left: none;
+}
+.hader-right ul {
+    text-align: center;
+}
+.service-item {
+    width: 28.3%;
+}
+.blog-left {
+    width: 50%;
+}
+.blog-right {
+    width: 100%;  
+}
+.blog-right h1 {
+    width: 255px;
+}
+.blog-right {
+    width: 75%;
+}
+}
+
+@media all and (max-width:768px){
+
+ .hader-right ul li a {
+    padding: 0px 20px;
+    font-size: 18px;
+}
+.baner {
+    padding: 82px;
+}
+.service-item {
+    width: 27.5%;
+    margin-bottom: 20px;
+    
+}
+.blog-right h1 {
+    width: 257px;
+}
+.blog-item p {
+    width: 658px;
+    padding-left: 20px;
+   
+}
+.blog-right {
+    width: 65%;
+}
+}
+
+@media all and (max-width:576px){
+
+ .hader-right ul li a {
+    padding: 0px 15px;
+    
+}
+
+.baner {
+    padding: 52px;
+}
+.baner-text h1 { 
+    padding: 5px 21px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+.baner-text h2 {
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-size: 25px;
+    max-width: 228px;
+   
+     margin-top: auto;
+    margin-top: 12px;
+}
+
+.service-item {
+    width: 90%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.blog-right {
+    width: 70%;  
+}
+}

@@ -1,0 +1,277 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/*Menu */
+.wide{
+    width: 1270px;
+    margin: auto;
+}
+.hader{
+    background-color: rgb(78, 85, 88);
+
+}
+.hader-left img{
+    height: auto;
+    width: 60px;
+    margin-bottom: 0;
+    
+}
+
+.img{
+    max-width: 100%;
+}
+.hader-left{
+    float: left;
+    width: 30%;
+}
+.hader-right{
+    float: right;
+    width: 70%;
+}
+.hader-right ul li:first-child a{
+    border-left: 1px solid white;
+}
+
+.hader-right ul{
+    text-align: right;
+}
+.hader-right ul li{
+    display: inline-block;
+    margin-left: -4px;
+    
+   
+}
+.hader-right ul li a{
+    display: block; 
+    text-decoration: none;
+    color: #ddd;
+    padding: 0px 30px;
+    font-size: 20px;
+    line-height: 60px;
+    border-right: 1px solid white;
+    transition: .4s;
+   
+}
+ 
+.hader-right ul li a:hover{
+    background: teal;
+}
+
+/*baner*/
+
+.baner{
+  background: url(./img/bbb.jpg) no-repeat center;
+  background-size: cover;
+  padding: 100px;
+}
+.text-center{
+    text-align: center;
+}
+
+.baner-text{}
+.baner-text h1{ 
+    color: rgb(255, 255, 255);
+    background-color: rgb(16, 88, 136);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+    
+}
+.baner-text h1:hover{
+    background-color: rgb(255, 0, 0);
+    transition: .5s;
+}
+
+.baner-text h2{
+    background: rgb(255, 255, 255);
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-size: 30px;
+    max-width: 290px;
+    margin: auto;
+    margin-top: 15px;
+    
+ }
+ .baner-text h2:hover{
+     background-color: green;
+     transition: .5s;
+ }
+
+
+ /*about*/
+ .about{margin: auto;
+    text-align: center;
+margin-top:-20px;
+max-width: 800px;
+margin-bottom: 20px;}
+ .about h1{
+     font-size: 40px;
+     margin-bottom: 10px;
+
+ }
+ .about p{
+
+ }
+
+ /* service*/
+ .servic{
+     text-align: center;
+     margin: auto;
+ }
+
+ .service-item{
+     float:left;
+     text-align: center;
+     width: 30.3%;
+     border: 1px solid rgb(189, 186, 186);
+     box-sizing: border-box;
+     margin-left: 3px;
+     margin-right: 3px;
+     padding: 25px 20px;
+     margin-left: 33px;
+     
+ }
+
+.service-item span{
+    background-color: rgb(30, 129, 160);
+    padding: 20px;
+    width: 60px;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    border-radius: 0px 40px;
+    font-size:20px;
+    display:block;
+    box-shadow: 3px 3px 15px black;
+}
+
+.service-item span:hover{
+    background-color: rgb(4, 51, 78);
+    transition: .4s;
+}
+.service-item h3{
+    margin-top: 10px;
+    font-size: 30PX;
+    color: rgb(68, 70, 65);
+}
+
+
+/*blog*/
+.blog{
+    margin-bottom: 20px;
+    
+}
+
+.blog-left{
+    float: left;
+    width: 70%;
+}
+
+.blog-item{
+    width: 500px;
+    margin-bottom: 30px;
+
+}
+
+.img{
+    max-width: 100%;
+}
+
+.blog-item img{
+    float: left;
+    width: 300px;
+    height: auto;
+    margin-right: 15px;
+    margin-left: 35px;
+    margin-top:
+}
+.ppp{
+    margin-top: 40px;
+    font-size: 20px;
+    
+}
+
+.pp{
+    margin-top:50px;
+    font-size: 20px;
+}
+
+
+.blog-item p{
+    width: 850px;
+    height: auto;
+}
+
+
+.blog-right{
+    float: right;
+    width: 25%;
+    margin-top: 30px;
+
+}
+.blog-right h1{
+    border-bottom: 1px solid#ddd;
+}
+
+.vvv{
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+
+.blog-right ul{
+    list-style: none;
+}
+.blog-right ul li{
+    display: inline-block;
+    padding: 15px 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+/*foter*/
+
+.foter{
+    background-color: rgb(71, 70, 70);
+    padding: 15px;
+
+}
+.foter-left{
+    float: left;
+    width: 40%;
+    color: white;
+}
+.foter-right{
+    float: right;
+   width: 20%;
+   font-size: 20px;
+
+}
+
+
+.social-menu{
+    
+}
+.social-menu li{
+    display: inline-block;
+}
+.social-menu li a{ 
+    color: rgb(255, 255, 255);
+}
+
+.social-menu li a:hover{
+    background-color: rgb(0, 255, 42);
+    border-radius: 40%;
+    transition: .5s;
+}
+
